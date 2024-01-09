@@ -24,26 +24,22 @@ const Sidebar = () => {
 
   return (
     <div className="nav-bar">
-      <Link 
-        className="logo"
-        to="/"
-        onClick={() => setShowNav(false)}>
-        <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
-      </Link>
+      <Link className="logo" to="/" onClick={() => setShowNav(false)}></Link>
       <nav className={showNav ? 'mobile-show' : ''}>
-        <NavLink 
+        <NavLink
           exact="true"
           activeclassname="active"
           to="/"
-          onClick={() => setShowNav(false)}>
+          onClick={() => setShowNav(false)}
+        >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
-        <NavLink 
+        <NavLink
           activeclassname="active"
           className="about-link"
           to="/about"
-          onClick={() => setShowNav(false)}>
+          onClick={() => setShowNav(false)}
+        >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
@@ -62,17 +58,18 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <FontAwesomeIcon 
+        <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
           color="#ffd700"
           size="3x"
-          className='close-icon' />
+          className="close-icon"
+        />
       </nav>
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/phil-blecher-a653251a8/"
             target="_blank"
             rel="noreferrer"
           >
@@ -84,11 +81,10 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a
-            href="https://github.com/bobangajicsm"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a 
+            href="https://github.com/pilipb"
+            target="_blank" 
+            rel="noreferrer">
             <FontAwesomeIcon
               icon={faGithub}
               color="#4d4d4e"
@@ -96,35 +92,14 @@ const Sidebar = () => {
             />
           </a>
         </li>
-        <li>
-          <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon
-              icon={faYoutube}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon
-              icon={faSkype}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
       </ul>
-      <FontAwesomeIcon 
-          onClick={() => setShowNav(true)}
-          icon={faBars}
-          color="#ffd700"
-          size="3x"
-          className='hamburger-icon' />
+      <FontAwesomeIcon
+        onClick={() => setShowNav(true)}
+        icon={faBars}
+        color="#ffd700"
+        size="3x"
+        className="hamburger-icon"
+      />
     </div>
   )
 }
