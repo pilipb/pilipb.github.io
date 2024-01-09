@@ -60,15 +60,15 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={1}
             />
           </h1>
-          <h2>Optimisation / AI / Robotics</h2>
+          <h2>Specialising in Optimisation / AI / Robotics</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
-        {/* insert background for homepage here */}
+        {/* insert background for homepage here - uncomment following line */}
         {/* <Logo /> */}
       </div>
 
