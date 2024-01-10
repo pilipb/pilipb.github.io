@@ -16,7 +16,6 @@ import {
   faClose,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
-import { Link as ScrollLink } from 'react-scroll'
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
