@@ -69,7 +69,7 @@ const Home = () => {
           </Link>
         </div>
         {/* insert background for homepage here - uncomment following line */}
-        {/* <Logo /> */}
+        <Logo />
       </div>
 
       <Loader type="pacman" />
