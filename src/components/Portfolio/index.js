@@ -57,19 +57,22 @@ const Portfolio = () => {
 
 
     return (
-        <>
-            <div className="container portfolio-page">
-                <h1 className="page-title">
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={"Portfolio".split("")}
-                        idx={15}
-                    />
-                </h1>
-                <div>{renderPortfolio(portfolio)}</div>
-            </div>
-            <Loader type="pacman" />
-        </>
+        
+            <>
+                <div className="container portfolio-page">
+                    <section id="portfolio-scroll">
+                        <h1 className="page-title">
+                            <AnimatedLetters
+                                letterClass={letterClass}
+                                strArray={"Portfolio".split("")}
+                                idx={15}
+                            />
+                        </h1>
+                        <div>{renderPortfolio(portfolio)}</div>
+                    </section>
+                </div>
+                <Loader type="pacman" />
+            </>
     );
 }
 
