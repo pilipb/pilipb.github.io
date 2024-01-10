@@ -6,8 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -61,7 +59,7 @@ const Sidebar = () => {
         <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
-          color="#ffd700"
+          color="#ff9900"
           size="3x"
           className="close-icon"
         />
@@ -75,7 +73,7 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              color="#4d4d4e"
+              color="#ff9900"
               className="anchor-icon"
             />
           </a>
@@ -87,7 +85,7 @@ const Sidebar = () => {
             rel="noreferrer">
             <FontAwesomeIcon
               icon={faGithub}
-              color="#4d4d4e"
+              color="#ff9900"
               className="anchor-icon"
             />
           </a>
@@ -96,7 +94,7 @@ const Sidebar = () => {
       <FontAwesomeIcon
         onClick={() => setShowNav(true)}
         icon={faBars}
-        color="#ffd700"
+        color="#ff9900"
         size="3x"
         className="hamburger-icon"
       />
