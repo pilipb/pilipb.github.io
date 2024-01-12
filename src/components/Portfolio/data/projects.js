@@ -1,5 +1,5 @@
 import img1 from '../data/plottedcad.png'
-// import img2 from '../data/plotter.png'
+import img2 from '../data/optimisation.png'
 
 export const projects = [
   {
@@ -15,7 +15,7 @@ export const projects = [
     subtitle: 'Matlab',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    image: './project-2.gif',
+    image: img2,
     link: 'https://github.com/pilipb/Optimisation',
   },
   {
