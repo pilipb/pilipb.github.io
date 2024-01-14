@@ -11,6 +11,11 @@ const Home = () => {
 
   const nameArray = [' ','P', 'h', 'i', 'l',' ', 'B', 'l', 'e', 'c', 'h', 'e', 'r']
   const jobArray = [
+    'I',
+    ' ',
+    'a',
+    'm',
+    ' ',
     'a',
     'n',
     ' ',
@@ -63,7 +68,7 @@ const Home = () => {
               idx={1}
             />
           </h1>
-          <h2>Specialising in Optimisation / AI / Robotics</h2>
+          <h2>Currently based at the University of Bristol</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
