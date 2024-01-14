@@ -19,8 +19,15 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
+    const apiKey = '5wI6EWXqOwFgQ9mCr'
+
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm(
+        'service_d6lnko9',
+        'template_yvrk9na',
+        form.current,
+        apiKey
+      )
       .then(
         () => {
           alert('Message successfully sent!')
