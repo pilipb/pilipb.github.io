@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.7fb0cb52.css",
-    "main.js": "/website/static/js/main.cc746557.js",
+    "main.js": "/website/static/js/main.b18ea71b.js",
     "static/js/787.5a42e17b.chunk.js": "/website/static/js/787.5a42e17b.chunk.js",
     "static/media/draw.gif": "/website/static/media/draw.905eb66b5978f635f369.gif",
     "static/media/profile_pic.JPG": "/website/static/media/profile_pic.87f4d12470d7b8bdddbd.JPG",
@@ -21,11 +21,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/website/index.html",
     "main.7fb0cb52.css.map": "/website/static/css/main.7fb0cb52.css.map",
-    "main.cc746557.js.map": "/website/static/js/main.cc746557.js.map",
+    "main.b18ea71b.js.map": "/website/static/js/main.b18ea71b.js.map",
     "787.5a42e17b.chunk.js.map": "/website/static/js/787.5a42e17b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7fb0cb52.css",
-    "static/js/main.cc746557.js"
+    "static/js/main.b18ea71b.js"
   ]
 }
