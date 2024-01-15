@@ -33,48 +33,39 @@ const Portfolio = () => {
 
     const renderPortfolio = (portfolio) => {
         return (
-          <section
-            id="portfolio"
-            className="portfolio-page"
-          >
+          <section id="portfolio" className="portfolio-page">
             <div className="title-cont">
               <div className="title">
-                <p className="description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Explicabo facilis repellat ab cupiditate alias vero aliquid
-                  obcaecati quisquam fuga dolore.
+                <p className="start-description">
+                  During my studies I have worked on a number of projects both
+                  in university and in my spare time. Below are some of my
+                  favourite projects. They vary from software to design and
+                  manufacturing.
                 </p>
               </div>
 
               <div className="project-cont">
                 {projects.map((project) => (
-                  <a
-                    href={project.link}
-                    key={project.image}
-                    className="link"
-                  >
+                  <a href={project.link} key={project.image} className="link">
+                    <div className="title-cont">
+                      <h1 className="subtitle">{project.title}</h1>
+                      <h2 className="title">{project.subtitle}</h2>
+                      <p className="description">{project.description}</p>
+                    </div>
+
                     <div className="image-cont">
                       <img
                         alt="gallery"
                         className="image"
                         src={project.image}
                       />
-                      <div className="title-cont">
-                        <h2 className="title">
-                          {project.subtitle}
-                        </h2>
-                        <h1 className="subtitle">
-                          {project.title}
-                        </h1>
-                        <p className="description">{project.description}</p>
-                      </div>
                     </div>
                   </a>
                 ))}
               </div>
             </div>
           </section>
-          )
+        )
           // <div className="images-container">
           //     {
           //         portfolio.map((port, idx) => {
