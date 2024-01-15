@@ -62,13 +62,13 @@ const Home = () => {
               idx={15}
             />
             <br />
-            <AnimatedLetters
+            {/* <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
               idx={1}
-            />
+            /> */}
           </h1>
-          <h2>Currently based at the University of Bristol</h2>
+          <h2>I am a final year Engineering Design student currently studying at the University of Bristol</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
