@@ -10,30 +10,33 @@ const Logo = () => {
   const solidLogoRef = useRef()
 
   useEffect(() => {
-    gsap.registerPlugin(DrawSVGPlugin)
+    const tl = gsap.timeline()
 
-    gsap
-      .timeline()
-      .to(bgRef.current, {
-        duration: 1,
-        opacity: 1,
-      })
-      .from(outlineLogoRef.current, {
-        drawSVG: 0,
-        duration: 10,
-      })
+    const outlineLength = outlineLogoRef.current.getTotalLength() // Get the total length of the SVG path
 
-    gsap.fromTo(
-      solidLogoRef.current,
-      {
-        opacity: 0,
-      },
-      {
-        opacity: 1,
-        delay: 4,
-        duration: 4,
-      }
-    )
+    tl.to(bgRef.current, {
+      duration: 1,
+      opacity: 1,
+    })
+      .to(
+        outlineLogoRef.current,
+        {
+          duration: 10,
+          strokeDasharray: outlineLength, // Set to the length of your path
+          strokeDashoffset: 0,
+        },
+        '-=1'
+      ) // Start this animation 1 second before the previous one ends
+      .fromTo(
+        solidLogoRef.current,
+        {
+          opacity: 0,
+        },
+        {
+          opacity: 1,
+          duration: 1,
+        }
+      )
   }, [])
 
   return (
