@@ -1,0 +1,24 @@
+<!-- public/404.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>404 Not Found - Redirecting to home</title>
+  <script>
+    (function() {
+      // Redirect to the root URL
+      window.location.href = '/';
+
+      // After a short delay, redirect back to the original URL
+      setTimeout(function() {
+        window.location.href = window.location.pathname;
+      }, 50);
+    })();
+  </script>
+</head>
+<body>
+  <h1>404 Not Found</h1>
+  <p>The requested page could not be found. Redirecting home.</p>
+</body>
+</html>
