@@ -6,11 +6,13 @@ import { HashRouter as Router } from 'react-router-dom'
 import App from './App'
 import './index.css'
 
+const baseUrl = process.env.PUBLIC_URL
+
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <BrowserRouter basename={baseUrl}>
       <App />
-    </Router>
+    </BrowserRouter>
     ,
   </React.StrictMode>,
   document.getElementById('root')
