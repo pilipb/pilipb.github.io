@@ -93,6 +93,7 @@ const Sidebar = () => {
       </ul>
       <FontAwesomeIcon
         onClick={() => setShowNav(true)}
+        onTouchStart={() => setShowNav(true)}
         icon={faBars}
         color="#ff9900"
         size="3x"
