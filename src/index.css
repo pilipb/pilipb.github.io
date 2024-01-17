@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #1d2d36;
   overflow: hidden;
-  display: block;
+  display: flex;
 }
 
 .dashboard {
@@ -20,6 +20,6 @@ body {
 
 @media screen and (max-width: 1200px) {
   body {
-    overflow: visible;
+    overflow: hidden;
   }
 }
