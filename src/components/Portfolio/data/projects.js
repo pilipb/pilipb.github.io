@@ -1,11 +1,30 @@
 import img1 from '../data/combined.png'
 import img2 from '../data/optimisation.png'
+import pontoon from '../data/pontoon_debris.png'
 // import img3 from '../data/plot.jpeg'
 import draw_gif from '../data/draw.gif'
+import forest from '..data/bio.png'
 import micro from '../data/micro.gif'
 import paper from '../data/paper2.png'
 
 export const projects = [
+  {
+    title: 'Canopy Guide',
+    subtitle: 'A tool for sustainable forestry road planning',
+    description:
+      'Canopy Guide is a tool that uses a combination of deep learning, bio-inspired ai and satellite imagery to optimise the location of forest roads to minimise the impact on the environemnt. This project acts as a proof of concept for the use of AI in sustainable forestry planning.',
+    image: forest,
+    link: 'https://github.com/pilipb/BioAI'
+  },
+  {
+    title: 'The Design and Modelling of a Pico-Hydro System',
+    subtitle: 'Masters Thesis',
+    description:
+      'The aim of this project was to design a pico-hydro turbine for a rural off-grid communities. I conducted modelling that validated the design through flow modelling, power modelling and long-term time series forecasting. See the repo for more details.',
+  
+    image: pontoon,
+    link: 'https://github.com/pilipb/DP5-code'
+  },
   {
     title: 'Pen Plotter',
     subtitle: 'Design and software for a CNC pen plotter',
