@@ -3,7 +3,7 @@ import img2 from '../data/optimisation.png'
 import pontoon from '../data/pontoon_debris.png'
 // import img3 from '../data/plot.jpeg'
 import draw_gif from '../data/draw.gif'
-import forest from '..data/bio.png'
+import forest from '../data/bio.png'
 import micro from '../data/micro.gif'
 import paper from '../data/paper2.png'
 
