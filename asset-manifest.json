@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.c096c1af.css",
-    "main.js": "/static/js/main.10dab175.js",
+    "main.css": "/static/css/main.90ab5891.css",
+    "main.js": "/static/js/main.e5c73132.js",
     "static/js/787.5a42e17b.chunk.js": "/static/js/787.5a42e17b.chunk.js",
     "static/media/bio.png": "/static/media/bio.7bd079ed2d3ca7ccc410.png",
     "static/media/draw.gif": "/static/media/draw.905eb66b5978f635f369.gif",
-    "static/media/profile_pic.JPG": "/static/media/profile_pic.87f4d12470d7b8bdddbd.JPG",
-    "static/media/me3.JPG": "/static/media/me3.e96c6f985cd55fdb44c9.JPG",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.87f4d12470d7b8bdddbd.jpg",
     "static/media/combined.png": "/static/media/combined.ae5f7a54690292058a3c.png",
     "static/media/me1.JPG": "/static/media/me1.b9c12df07a64a92308c2.JPG",
     "static/media/me2.JPG": "/static/media/me2.1364caf97abb448e6fba.JPG",
+    "static/media/me3.JPG": "/static/media/me3.1364caf97abb448e6fba.JPG",
     "static/media/optimisation.png": "/static/media/optimisation.d52bef82654591409289.png",
     "static/media/micro.gif": "/static/media/micro.41490b32c35449dee0b4.gif",
     "static/media/paper2.png": "/static/media/paper2.ccfb0f13f0be4567821f.png",
     "static/media/pontoon_debris.png": "/static/media/pontoon_debris.37d554c13225afbc76c0.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff": "/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/logo_sub.png": "/static/media/logo_sub.19f3ab25ab15fd848b30.png",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/logo-s.png": "/static/media/logo-s.bfc9f81846bda5218dab.png",
     "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.c096c1af.css.map": "/static/css/main.c096c1af.css.map",
-    "main.10dab175.js.map": "/static/js/main.10dab175.js.map",
+    "main.90ab5891.css.map": "/static/css/main.90ab5891.css.map",
+    "main.e5c73132.js.map": "/static/js/main.e5c73132.js.map",
     "787.5a42e17b.chunk.js.map": "/static/js/787.5a42e17b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c096c1af.css",
-    "static/js/main.10dab175.js"
+    "static/css/main.90ab5891.css",
+    "static/js/main.e5c73132.js"
   ]
 }
