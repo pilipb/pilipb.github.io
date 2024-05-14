@@ -42,8 +42,8 @@ const Logo = () => {
   return (
     <div className="logo-container" ref={bgRef}>
       <svg
-        width="559pt"
-        height="897pt"
+        width="100%"
+        height="50%"
         version="1.0"
         viewBox="0 0 559 897"
         xmlns="http://www.w3.org/2000/svg"

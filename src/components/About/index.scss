@@ -1,43 +1,52 @@
 
-.profile-pic-cont {
-  padding-left: 60%;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
+.about-page {
 
-.about-text-zone {
-  position: absolute;
-  padding-left: 12%;
-  width: 40%;
-  padding-top: 0%;
-  top: 0;
-
-}
-
-.photos {
-  width: 47%;
-  height: 50%;
-  position: absolute;
-  left: 10%;
-  bottom: 0;
-}
-
-.photo-cont{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  display: flex;
-}
-
-.photo {
+  padding-top: 50px;
   width: 80%;
-  position: relative;
-  overflow: hidden;
-  margin-left: 10px;
-  object-fit: cover;
+
+  .profile-pic-cont {
+    padding-left: 60%;
+    // padding-right: 10%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-text-zone {
+    position: absolute;
+    padding-left: 12%;
+    width: 40%;
+    padding-top: 0%;
+    top: 0;
+    font-size: large;
+
+  }
+
+  .photos {
+    width: 47%;
+    height: 50%;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+  }
+
+  .photo-cont{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .photo {
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+    object-fit: cover;
+  }
+        
 }
 
 .cubespinner {
@@ -51,7 +60,7 @@
 
   div {
     position: absolute;
-    width: 200px;
+    width: 50%;
     height: 200px;
     border: 1px solid #ccc;
     background: #056f73;
